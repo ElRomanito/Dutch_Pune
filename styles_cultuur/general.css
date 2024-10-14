@@ -1,0 +1,117 @@
+*{
+    display: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 50px;
+}
+H1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica, sans-serif;
+    font-size: bold;
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+
+}
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica, sans-serifs;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.intro{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.Elem_1{
+    margin-top: 300px;
+    display: inline-block;
+}
+.image_1{
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.hidden_1{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: 3s;
+    }
+    @media(prefers-reduced-motion){
+        .hidden_1{
+            transition: none;
+        }
+    }
+    .show_1{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    }
+
+.Text_1{
+    vertical-align: top;
+    float: right;
+    width: 80%;
+    margin-right: 25px;
+}
+.Elem_2{
+    margin-top: 300px;
+    display: inline-block;
+}
+.image_2{
+    float: right;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.Text_2{
+    vertical-align: top;
+    float: left;
+    width: 80%;
+    margin-left: 25px;
+}
+
+    .hidden_2{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+        transition: 3s;
+        }
+    @media(prefers-reduced-motion){
+        .hidden_2{
+          transition: none;
+        }
+    }
+    .show_2{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+        }
+        .Elem_3{
+            margin-top: 300px;
+            align-items: center;
+        }
+        .image_3{
+            width: 1300px;
+            height: 600px;
+            margin-left: 16%;
+        }
+        .Text_3{
+            text-align: center;
+            margin-left: 25%;
+            width: 50%;
+            margin-bottom: 200px;
+ }        
+ .title{
+    font-size: 60px;
+
+ }
